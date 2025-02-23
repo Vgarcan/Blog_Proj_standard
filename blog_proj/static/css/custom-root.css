@@ -1,0 +1,104 @@
+/* === GLOBAL COLORS === */
+
+:root {
+    --bs-primary: #1F2937;
+    --bs-secondary: #1e97f3;
+    --bs-success: #10B981;
+    --bs-danger: #E63946;
+    --bs-warning: #F6CA3B;
+    --bs-info: #4D9DE0;
+    --bs-light: #E5E7EB;
+    --bs-dark: #1A1A1D;
+    --bs-white: #FFFFFF;
+    --bs-black: #000000;
+    /* Additional Theme Colors */
+    --bs-purple: #6f42c1;
+    --bs-pink: #e83e8c;
+    --bs-orange: #fd7e14;
+    --bs-teal: #20c997;
+    --bs-cyan: #17a2b8;
+    /* grays */
+    --bs-gray-200: #e9ecef;
+    /* Gradient Colors */
+    --bs-gradient-primary: linear-gradient(90deg, #1F2937, #4D9DE0);
+    --bs-gradient-secondary: linear-gradient(90deg, #1e97f3, #10B981);
+    --bs-gradient-success: linear-gradient(90deg, #10B981, #44AF69);
+    --bs-gradient-danger: linear-gradient(90deg, #E63946, #FF6B6B);
+    --bs-gradient-warning: linear-gradient(90deg, #F6CA3B, #FFC300);
+    --bs-gradient-info: linear-gradient(90deg, #4D9DE0, #1FAB89);
+    /* Opacity */
+    --bs-opacity-100: 1;
+    --bs-opacity-75: 0.75;
+    --bs-opacity-50: 0.5;
+    --bs-opacity-25: 0.25;
+    --bs-opacity-0: 0;
+    /* Box Shadows */
+    --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --bs-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+    --bs-box-shadow-primary: 0 0.5rem 1.5rem rgba(31, 41, 55, 0.5);
+    /* Border Colors */
+    --bs-border-color-primary: #1F2937;
+    --bs-border-color-secondary: #1e97f3;
+    --bs-border-color-light: #E5E7EB;
+    --bs-border-color-dark: #1A1A1D;
+    /* === FONT SETTINGS === */
+    --bs-font-sans-serif: 'Poppins', sans-serif;
+    --bs-font-serif: 'Georgia', serif;
+    --bs-font-monospace: 'Courier New', monospace;
+    --bs-font-size-xs: 0.75rem;
+    --bs-font-size-sm: 0.875rem;
+    --bs-font-size-base: 1rem;
+    --bs-font-size-md: 1.125rem;
+    --bs-font-size-lg: 1.25rem;
+    --bs-font-size-xl: 1.5rem;
+    --bs-font-size-xxl: 2rem;
+    --bs-font-size-display: 3rem;
+    --bs-line-height-base: 1.5;
+    --bs-line-height-sm: 1.25;
+    --bs-line-height-lg: 2;
+    /* === SPACING SYSTEM === */
+    --bs-spacing-0: 0rem;
+    --bs-spacing-1: 0.25rem;
+    --bs-spacing-2: 0.5rem;
+    --bs-spacing-3: 1rem;
+    --bs-spacing-4: 1.5rem;
+    --bs-spacing-5: 3rem;
+    --bs-spacing-6: 4.5rem;
+    --bs-spacing-7: 6rem;
+    --bs-spacing-8: 8rem;
+    /* Padding and Margin */
+    --bs-padding-xs: 0.25rem;
+    --bs-padding-sm: 0.5rem;
+    --bs-padding-md: 1rem;
+    --bs-padding-lg: 2rem;
+    --bs-padding-xl: 4rem;
+    --bs-margin-xs: 0.25rem;
+    --bs-margin-sm: 0.5rem;
+    --bs-margin-md: 1rem;
+    --bs-margin-lg: 2rem;
+    --bs-margin-xl: 4rem;
+    /* === BORDERS === */
+    --bs-border-width: 1px;
+    --bs-border-width-lg: 2px;
+    --bs-border-radius: 0.5rem;
+    --bs-border-radius-sm: 0.25rem;
+    --bs-border-radius-lg: 1rem;
+    --bs-border-radius-pill: 50rem;
+    /* === TRANSITIONS === */
+    --bs-transition-fast: all 0.2s ease-in-out;
+    --bs-transition-medium: all 0.5s ease-in-out;
+    --bs-transition-slow: all 1s ease-in-out;
+    /* === Z-INDEX SETTINGS === */
+    --bs-zindex-dropdown: 1000;
+    --bs-zindex-sticky: 1020;
+    --bs-zindex-fixed: 1030;
+    --bs-zindex-modal: 1050;
+    --bs-zindex-tooltip: 1080;
+    /* === SCROLLBAR === */
+    --bs-scrollbar-width: 0.5rem;
+    --bs-scrollbar-thumb: var(--bs-gray-500);
+    --bs-scrollbar-track: var(--bs-gray-200);
+    /* === TABLE OVERRIDE === */
+    /* --bs-body-bg: none; */
+}
